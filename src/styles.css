@@ -1,0 +1,110 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.light {
+    background-color: #ffffff;
+    color: #333333;
+}
+  
+.dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.light .custom-form {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  .light .custom-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  .light .custom-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .light .custom-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dark .custom-form {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .dark .custom-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #333333;
+    color: #ffffff;
+  }
+  .input-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .custom-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00ff00; 
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+  
+  .custom-button:hover {
+    background-color: #009900;
+    color: #fff; 
+  }
+  
+
+.theme-toggle-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .light.theme-toggle-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .dark.theme-toggle-button {
+    background-color: #00ff00;
+    color: #333333;
+  }
+  
+  .theme-toggle-button:hover {
+    background-color: #0056b3;
+  }
+  .dark.theme-toggle-button:hover {
+    background-color: #008000; 
+  }
+
+  
